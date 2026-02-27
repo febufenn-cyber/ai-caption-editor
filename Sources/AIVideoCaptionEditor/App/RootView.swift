@@ -1,7 +1,7 @@
 import SwiftUI
 import UniformTypeIdentifiers
 
-struct RootView: View {
+struct EditorView: View {
     @StateObject private var viewModel = EditorViewModel()
     @State private var isImportPresented = false
 
