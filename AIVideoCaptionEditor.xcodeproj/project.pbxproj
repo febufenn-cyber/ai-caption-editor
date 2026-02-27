@@ -1,0 +1,105 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EF073651301A6E14F84AB01 /* AIVideoCaptionEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B61D172840DFD1B80AFF5 /* AIVideoCaptionEditorApp.swift */; };
+		757CE0F543FF49BAEE4A5CDF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E797DFF92A6139F5C77D7 /* RootView.swift */; };
+		B01DEE6C1FE4C3EC72467A86 /* TimelineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62E326D4AA40F32CBFB7A77 /* TimelineController.swift */; };
+		DE66D0B6FC1987715BC0F3E0 /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979547AD05CA49FC512345A0 /* ExportManager.swift */; };
+		86DD47C8016CB91086C887B0 /* LyricsAlignmentEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE3DAEED2E0F8C0A1264E4 /* LyricsAlignmentEngine.swift */; };
+		1EC244D3064CAE2510A92B1C /* AudioExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D493A94EFCC9FBC9F548C08 /* AudioExtractor.swift */; };
+		736AF52444D346AF92FC427A /* TranscriptionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43006EA387918EBB39BCD6 /* TranscriptionEngine.swift */; };
+		ECBA31DB2817689C1A526443 /* VideoPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1642600F18E48F5A9BC3CC8B /* VideoPlayerManager.swift */; };
+		56E54C544BA18EE44DC536AC /* Caption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FFF570CC083A5ECF2B5A20 /* Caption.swift */; };
+		A46E453B517F0A1986C5F507 /* CaptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F854CE278703968AC7FEC5 /* CaptionModel.swift */; };
+		D0C4B692887BAE739B949BA4 /* CaptionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714D90BD65971F5C5F798AB /* CaptionStyle.swift */; };
+		4F7FC6D1763BD038979A407D /* CaptionWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BCF370EF769CA31570EE71 /* CaptionWord.swift */; };
+		9D5B7031E7F5D88E5A00F6CE /* CaptionAnimationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81CBADB07B5ADCA088E553C /* CaptionAnimationEngine.swift */; };
+		81157F5AA50437E64F6C2B41 /* CaptionOverlayMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B98C442579CF7CA89900AF9 /* CaptionOverlayMetalView.swift */; };
+		30DA20862DA8A9DD33058F48 /* CaptionRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B30B0E1415B15CC55266593 /* CaptionRenderer.swift */; };
+		CA0D5926873BC98580BD047D /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DF42CB817DA1266F7B2AF /* StyleManager.swift */; };
+		51D010BE9138BE79D1C2F23A /* CancellationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9399BAB2978B75F13E78118 /* CancellationToken.swift */; };
+		D6E8AEBFFE0A02EB741E2C57 /* Timecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793EFDCFF0107A3A0F6FAEAF /* Timecode.swift */; };
+		0464B78113BADCB861D937A9 /* WAVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A922602EC3E8270AE2B8DB /* WAVWriter.swift */; };
+		A29ABFF558A80857A3E373EE /* EditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8060C9A0DB6B2857D4B0FB9 /* EditorViewModel.swift */; };
+		BD791247CDF0EFD3831B4CF0 /* CaptionEditorPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B04FB7DF10A115502C39AFA /* CaptionEditorPanel.swift */; };
+		B7C6D916E3DB2ED835CE5C33 /* EditorToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E64FF4A82600182A719399 /* EditorToolbar.swift */; };
+		4A52AD2234DA0DF31541F23D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8F9FC35A4BE8C675574C4 /* PlayerView.swift */; };
+		3E8A222D9E1176199EFB3117 /* TimelinePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B79F0255BFAE33893E9B8 /* TimelinePane.swift */; };
+		1F8D822613E5930EDDF12018 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C980441FCA0EDFAF6C3C06 /* WaveformView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		522B61D172840DFD1B80AFF5 /* AIVideoCaptionEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/App/AIVideoCaptionEditorApp.swift; sourceTree = "<group>"; };
+		711E797DFF92A6139F5C77D7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/App/RootView.swift; sourceTree = "<group>"; };
+		C62E326D4AA40F32CBFB7A77 /* TimelineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Controllers/TimelineController.swift; sourceTree = "<group>"; };
+		979547AD05CA49FC512345A0 /* ExportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Export/ExportManager.swift; sourceTree = "<group>"; };
+		F4EE3DAEED2E0F8C0A1264E4 /* LyricsAlignmentEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Lyrics/LyricsAlignmentEngine.swift; sourceTree = "<group>"; };
+		3D493A94EFCC9FBC9F548C08 /* AudioExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Managers/AudioExtractor.swift; sourceTree = "<group>"; };
+		CC43006EA387918EBB39BCD6 /* TranscriptionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Managers/TranscriptionEngine.swift; sourceTree = "<group>"; };
+		1642600F18E48F5A9BC3CC8B /* VideoPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Managers/VideoPlayerManager.swift; sourceTree = "<group>"; };
+		61FFF570CC083A5ECF2B5A20 /* Caption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Models/Caption.swift; sourceTree = "<group>"; };
+		16F854CE278703968AC7FEC5 /* CaptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Models/CaptionModel.swift; sourceTree = "<group>"; };
+		0714D90BD65971F5C5F798AB /* CaptionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Models/CaptionStyle.swift; sourceTree = "<group>"; };
+		99BCF370EF769CA31570EE71 /* CaptionWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Models/CaptionWord.swift; sourceTree = "<group>"; };
+		F81CBADB07B5ADCA088E553C /* CaptionAnimationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Rendering/CaptionAnimationEngine.swift; sourceTree = "<group>"; };
+		0B98C442579CF7CA89900AF9 /* CaptionOverlayMetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Rendering/CaptionOverlayMetalView.swift; sourceTree = "<group>"; };
+		7B30B0E1415B15CC55266593 /* CaptionRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Rendering/CaptionRenderer.swift; sourceTree = "<group>"; };
+		155DF42CB817DA1266F7B2AF /* StyleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Styling/StyleManager.swift; sourceTree = "<group>"; };
+		D9399BAB2978B75F13E78118 /* CancellationToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Utilities/CancellationToken.swift; sourceTree = "<group>"; };
+		793EFDCFF0107A3A0F6FAEAF /* Timecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Utilities/Timecode.swift; sourceTree = "<group>"; };
+		64A922602EC3E8270AE2B8DB /* WAVWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Utilities/WAVWriter.swift; sourceTree = "<group>"; };
+		D8060C9A0DB6B2857D4B0FB9 /* EditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/ViewModels/EditorViewModel.swift; sourceTree = "<group>"; };
+		1B04FB7DF10A115502C39AFA /* CaptionEditorPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Views/CaptionEditorPanel.swift; sourceTree = "<group>"; };
+		F7E64FF4A82600182A719399 /* EditorToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Views/EditorToolbar.swift; sourceTree = "<group>"; };
+		FAA8F9FC35A4BE8C675574C4 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Views/PlayerView.swift; sourceTree = "<group>"; };
+		383B79F0255BFAE33893E9B8 /* TimelinePane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Views/TimelinePane.swift; sourceTree = "<group>"; };
+		F3C980441FCA0EDFAF6C3C06 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AIVideoCaptionEditor/Views/WaveformView.swift; sourceTree = "<group>"; };
+		71494F0156E62BA555E8527D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AIVideoCaptionEditor-Info.plist; sourceTree = "<group>"; };
+		E686EBD9389C87822C3937BA /* AIVideoCaptionEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIVideoCaptionEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E872B0C4F3AB11D258C39F /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A85897F1A32FE9B91C081CD = {isa = PBXGroup; children = (E9AC4BD1540DF25F92F842D2 /* Sources */, 71494F0156E62BA555E8527D /* Info.plist */, B88D7E26791946AEFDCC8BB7 /* Products */, ); sourceTree = "<group>"; };
+		B88D7E26791946AEFDCC8BB7 /* Products */ = {isa = PBXGroup; children = (E686EBD9389C87822C3937BA /* AIVideoCaptionEditor.app */, ); name = Products; sourceTree = "<group>"; };
+		E9AC4BD1540DF25F92F842D2 /* Sources */ = {isa = PBXGroup; children = (522B61D172840DFD1B80AFF5 /* AIVideoCaptionEditorApp.swift */, 711E797DFF92A6139F5C77D7 /* RootView.swift */, C62E326D4AA40F32CBFB7A77 /* TimelineController.swift */, 979547AD05CA49FC512345A0 /* ExportManager.swift */, F4EE3DAEED2E0F8C0A1264E4 /* LyricsAlignmentEngine.swift */, 3D493A94EFCC9FBC9F548C08 /* AudioExtractor.swift */, CC43006EA387918EBB39BCD6 /* TranscriptionEngine.swift */, 1642600F18E48F5A9BC3CC8B /* VideoPlayerManager.swift */, 61FFF570CC083A5ECF2B5A20 /* Caption.swift */, 16F854CE278703968AC7FEC5 /* CaptionModel.swift */, 0714D90BD65971F5C5F798AB /* CaptionStyle.swift */, 99BCF370EF769CA31570EE71 /* CaptionWord.swift */, F81CBADB07B5ADCA088E553C /* CaptionAnimationEngine.swift */, 0B98C442579CF7CA89900AF9 /* CaptionOverlayMetalView.swift */, 7B30B0E1415B15CC55266593 /* CaptionRenderer.swift */, 155DF42CB817DA1266F7B2AF /* StyleManager.swift */, D9399BAB2978B75F13E78118 /* CancellationToken.swift */, 793EFDCFF0107A3A0F6FAEAF /* Timecode.swift */, 64A922602EC3E8270AE2B8DB /* WAVWriter.swift */, D8060C9A0DB6B2857D4B0FB9 /* EditorViewModel.swift */, 1B04FB7DF10A115502C39AFA /* CaptionEditorPanel.swift */, F7E64FF4A82600182A719399 /* EditorToolbar.swift */, FAA8F9FC35A4BE8C675574C4 /* PlayerView.swift */, 383B79F0255BFAE33893E9B8 /* TimelinePane.swift */, F3C980441FCA0EDFAF6C3C06 /* WaveformView.swift */, ); name = Sources; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF26AA249304F6C41B40519 /* AIVideoCaptionEditor */ = {isa = PBXNativeTarget; buildConfigurationList = ABCB5857317FC63440792851 /* Build configuration list for PBXNativeTarget "AIVideoCaptionEditor" */; buildPhases = (7EE609159AC086BAB15FF998 /* Sources */, A9E872B0C4F3AB11D258C39F /* Frameworks */, A2892AFC2D88060C0AA91373 /* Resources */, ); buildRules = ( ); dependencies = ( ); name = AIVideoCaptionEditor; productName = AIVideoCaptionEditor; productReference = E686EBD9389C87822C3937BA /* AIVideoCaptionEditor.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1781F676DEDF5767F3243DB0 /* Project object */ = {isa = PBXProject; attributes = {LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {6AF26AA249304F6C41B40519 = {CreatedOnToolsVersion = 16.0;};};}; buildConfigurationList = B94510F32809B5D8C3F48678 /* Build configuration list for PBXProject "AIVideoCaptionEditor" */; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = 0A85897F1A32FE9B91C081CD; productRefGroup = B88D7E26791946AEFDCC8BB7 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (6AF26AA249304F6C41B40519 /* AIVideoCaptionEditor */, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2892AFC2D88060C0AA91373 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EE609159AC086BAB15FF998 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (9EF073651301A6E14F84AB01 /* AIVideoCaptionEditorApp.swift in Sources */, 757CE0F543FF49BAEE4A5CDF /* RootView.swift in Sources */, B01DEE6C1FE4C3EC72467A86 /* TimelineController.swift in Sources */, DE66D0B6FC1987715BC0F3E0 /* ExportManager.swift in Sources */, 86DD47C8016CB91086C887B0 /* LyricsAlignmentEngine.swift in Sources */, 1EC244D3064CAE2510A92B1C /* AudioExtractor.swift in Sources */, 736AF52444D346AF92FC427A /* TranscriptionEngine.swift in Sources */, ECBA31DB2817689C1A526443 /* VideoPlayerManager.swift in Sources */, 56E54C544BA18EE44DC536AC /* Caption.swift in Sources */, A46E453B517F0A1986C5F507 /* CaptionModel.swift in Sources */, D0C4B692887BAE739B949BA4 /* CaptionStyle.swift in Sources */, 4F7FC6D1763BD038979A407D /* CaptionWord.swift in Sources */, 9D5B7031E7F5D88E5A00F6CE /* CaptionAnimationEngine.swift in Sources */, 81157F5AA50437E64F6C2B41 /* CaptionOverlayMetalView.swift in Sources */, 30DA20862DA8A9DD33058F48 /* CaptionRenderer.swift in Sources */, CA0D5926873BC98580BD047D /* StyleManager.swift in Sources */, 51D010BE9138BE79D1C2F23A /* CancellationToken.swift in Sources */, D6E8AEBFFE0A02EB741E2C57 /* Timecode.swift in Sources */, 0464B78113BADCB861D937A9 /* WAVWriter.swift in Sources */, A29ABFF558A80857A3E373EE /* EditorViewModel.swift in Sources */, BD791247CDF0EFD3831B4CF0 /* CaptionEditorPanel.swift in Sources */, B7C6D916E3DB2ED835CE5C33 /* EditorToolbar.swift in Sources */, 4A52AD2234DA0DF31541F23D /* PlayerView.swift in Sources */, 3E8A222D9E1176199EFB3117 /* TimelinePane.swift in Sources */, 1F8D822613E5930EDDF12018 /* WaveformView.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		227D598C43F89E386FEDC99C /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)", ); MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_VERSION = 5.0; }; name = Debug; };
+		629EF55A3C666E770F49E432 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 5.0; }; name = Release; };
+		7B75071AD1205970396928FF /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = AIVideoCaptionEditor-Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", ); MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.febin.AIVideoCaptionEditor; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A57C050F5E7DEEC5FC65E641 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = AIVideoCaptionEditor-Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", ); MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.febin.AIVideoCaptionEditor; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B94510F32809B5D8C3F48678 /* Build configuration list for PBXProject "AIVideoCaptionEditor" */ = {isa = XCConfigurationList; buildConfigurations = (227D598C43F89E386FEDC99C /* Debug */, 629EF55A3C666E770F49E432 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		ABCB5857317FC63440792851 /* Build configuration list for PBXNativeTarget "AIVideoCaptionEditor" */ = {isa = XCConfigurationList; buildConfigurations = (7B75071AD1205970396928FF /* Debug */, A57C050F5E7DEEC5FC65E641 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 1781F676DEDF5767F3243DB0 /* Project object */;
+}
